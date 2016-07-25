@@ -1,4 +1,4 @@
-﻿namespace DrawSquareTriangle.Biz
+﻿namespace DrawSquareTriangle.Biz.Objects
 {
     interface IDrawableObject
     {

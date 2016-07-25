@@ -1,4 +1,6 @@
-﻿namespace DrawSquareTriangle.Biz
+﻿using DrawSquareTriangle.Biz.Objects;
+
+namespace DrawSquareTriangle.Biz.Drawer
 {
     class Drawer
     {

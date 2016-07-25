@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biz\Drawer\Drawer.cs" />
+    <Compile Include="Biz\Strategy\DrawTriangleStrategy.cs" />
+    <Compile Include="Biz\Strategy\DrawSquareStrategy.cs" />
+    <Compile Include="Biz\Strategy\FactoryDrawStrategy.cs" />
+    <Compile Include="Biz\Strategy\IDrawStrategy.cs" />
     <Compile Include="Biz\Objects\IDrawableObject.cs" />
     <Compile Include="Biz\Objects\Square.cs" />
     <Compile Include="Biz\Objects\Triangle.cs" />

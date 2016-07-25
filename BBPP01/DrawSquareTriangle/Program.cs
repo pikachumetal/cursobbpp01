@@ -1,5 +1,6 @@
-﻿using DrawSquareTriangle.Biz;
+﻿using DrawSquareTriangle.Biz.Strategy;
 using System;
+using System.Linq;
 
 namespace DrawSquareTriangle
 {
@@ -8,17 +9,14 @@ namespace DrawSquareTriangle
         static void Main(string[] args)
         {
             var option = "";
-            var drawer = new Drawer();
+            var strats = new FactoryDrawStrategy();
+            
             do
             {
-                switch (option.ToLowerInvariant())
+                IDrawStrategy strat = strats.factory.FirstOrDefault(s => s.CanHandle(option.ToLowerInvariant()));
+                if (strat != null)
                 {
-                    case "s":
-                        drawer.Draw(new Square());
-                        break;
-                    case "t":
-                        drawer.Draw(new Triangle());
-                        break;
+                    strat.Draw();
                 }
                 Console.Out.WriteLine("Square(s) or Triangle(t), or maybe close(c)");
                 option = Console.In.ReadLine();
