@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using IoCApp.Biz.Logger;
 
-namespace IoCApp.Biz
+namespace IoCApp.Biz.Objects
 {
     class Foo
     {

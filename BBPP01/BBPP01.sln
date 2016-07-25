@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawSquareTriangle", "DrawS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCApp", "IoCApp\IoCApp.csproj", "{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDI", "WebAPIDI\WebAPIDI.csproj", "{6DC7F58E-7AF4-4489-8990-91DDF1ABDBBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC7F58E-7AF4-4489-8990-91DDF1ABDBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC7F58E-7AF4-4489-8990-91DDF1ABDBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC7F58E-7AF4-4489-8990-91DDF1ABDBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC7F58E-7AF4-4489-8990-91DDF1ABDBBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

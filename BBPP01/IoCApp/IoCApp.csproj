@@ -37,6 +37,10 @@
       <HintPath>..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Autofac.Integration.WebApi, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.WebApi.3.1.0\lib\net40\Autofac.Integration.WebApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,9 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Biz\Foo.cs" />
+    <Compile Include="Biz\Logger\NullLogger.cs" />
+    <Compile Include="Biz\Objects\Baz.cs" />
+    <Compile Include="Biz\Objects\Foo.cs" />
     <Compile Include="Biz\Logger\ConsoleLogger.cs" />
     <Compile Include="Biz\Logger\ILogger.cs" />
+    <Compile Include="Biz\Factories\MainFactory.cs" />
+    <Compile Include="Config\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
