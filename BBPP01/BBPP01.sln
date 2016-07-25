@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderWriter", "FileRea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawSquareTriangle", "DrawSquareTriangle\DrawSquareTriangle.csproj", "{9127167F-1E49-4E0C-9011-0CE39CE6010F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCApp", "IoCApp\IoCApp.csproj", "{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9127167F-1E49-4E0C-9011-0CE39CE6010F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9127167F-1E49-4E0C-9011-0CE39CE6010F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9127167F-1E49-4E0C-9011-0CE39CE6010F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C151A573-D2E3-4C84-9FB9-4DDCD40DB2D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
