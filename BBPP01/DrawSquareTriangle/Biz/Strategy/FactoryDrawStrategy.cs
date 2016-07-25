@@ -4,11 +4,14 @@ namespace DrawSquareTriangle.Biz.Strategy
 {
     class FactoryDrawStrategy
     {
-        public List<IDrawStrategy> factory { get; }
+        public IEnumerable<IDrawStrategy> factory { get; }
 
         public FactoryDrawStrategy()
         {
-            factory = new List<IDrawStrategy>(new IDrawStrategy[] { new DrawTriangleStrategy(), new DrawSquareStrategy() });
+            factory = new List<IDrawStrategy>(new IDrawStrategy[] {
+                new DrawTriangleStrategy(),
+                new DrawSquareStrategy() }
+            );
         }
     }
 }
