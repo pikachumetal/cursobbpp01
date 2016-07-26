@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <JSLintSkip>\Scripts\bootstrap.js|\Scripts\bootstrap.min.js|\Scripts\jquery-2.2.4.intellisense.js|\Scripts\jquery-2.2.4.js|\Scripts\jquery-2.2.4.min.js|\Scripts\modernizr-2.8.3.js|\Scripts\respond.js|\Scripts\respond.matchmedia.addListener.js|\Scripts\respond.matchmedia.addListener.min.js|\Scripts\respond.min.js</JSLintSkip>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -225,7 +226,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="JSLintNet.json" />
     <None Include="Scripts\jquery-2.2.4.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
